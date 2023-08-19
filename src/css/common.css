@@ -21,7 +21,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 50px;
+  margin-top: 225px;
 }
 
 .btn-container button {
@@ -32,5 +32,31 @@ img {
   background-color: #dedede;
   transition: 0.3s;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+}
+
+.input-container button {
+  cursor: pointer;
+  padding: 12px 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #dedede;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
