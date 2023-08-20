@@ -67,7 +67,6 @@ function clearTimer() {
   elements.startBtn.disabled = true;
 }
 
-
 function convertMs(ms) {
   // Number of milliseconds per unit of time
   const second = 1000;
